@@ -77,6 +77,7 @@ class TestSampleClass(unittest.TestCase):
         self.assertEqual(400, over_lap_res.status_code)
 
     def test_shot_hit(self):
+        self.test_success_create_game()
         hit_payload = json.dumps({
             "x": 2,
             "y": 1
