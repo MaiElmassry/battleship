@@ -24,6 +24,10 @@ def create_battleship_game():
     return jsonify(board), HTTPStatus.OK
 
 
+def add_new_function():
+    pass
+
+
 def create_game_board(x_axis: int, y_axis: int) -> list:
     global board
     for i in range(x_axis):
